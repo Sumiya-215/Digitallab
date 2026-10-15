@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#07152b">
+    <meta name="description" content="Shaik Sumiya's Data Science Digital Laboratory at Mohan Babu University.">
+    <title>Digital Laboratory | Data Science | MBU</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-6v-7h-4v7H4a1 1 0 0 1-1-1z"/></symbol>
+      <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></symbol>
+      <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6l-6 10a1.5 1.5 0 0 0 1.3 2.2h13.4A1.5 1.5 0 0 0 20 19L14 9V3M8 15h8"/></symbol>
+      <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5H10l2 2h7.5A1.5 1.5 0 0 1 21 8.5v10a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18.5z"/></symbol>
+      <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 1 4 17.5zM4 17a2.5 2.5 0 0 1 2.5-2.5H20M8 7h7"/></symbol>
+      <symbol id="i-tool" viewBox="0 0 24 24"><path d="m14 7 3 3M4 20l7.5-7.5M14 4a5 5 0 0 0 6 6l-4 4-6-6 4-4ZM3 21l5-5"/></symbol>
+      <symbol id="i-id" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M5.5 16a3.5 3.5 0 0 1 7 0M15 9h3M15 13h3"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M19 12H5m7 7-7-7 7-7"/></symbol>
+      <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 17v4h14v-4"/></symbol>
+      <symbol id="i-file" viewBox="0 0 24 24"><path d="M13 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V10zM13 3v7h7M8 15h8m-8 3h8"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+      <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l3-3A5 5 0 0 0 13.4 3l-1.7 1.7M14 11a5 5 0 0 0-7.5-.5l-3 3A5 5 0 0 0 10.6 21l1.7-1.7"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+      <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 8-5 4 5 4m8-8 5 4-5 4m-3-11-2 14"/></symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Zm7 12 .9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15ZM5 2l.7 1.3L7 4l-1.3.7L5 6l-.7-1.3L3 4l1.3-.7L5 2Z"/></symbol>
+      <symbol id="i-printer" viewBox="0 0 24 24"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v7H6z"/></symbol>
+    </svg>
+
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand-mark" href="#home" aria-label="Mohan Babu University home">
+          <img src="assets/mbu-logo.png" alt="Mohan Babu University">
+        </a>
+        <a class="lab-heading" href="#home">
+          <span class="eyebrow">MOHAN BABU UNIVERSITY</span>
+          <span class="lab-title">DIGITAL LABORATORY</span>
+          <span class="subject-line">Data Science <i></i> 22DS102006</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <svg class="icon"><use href="#i-menu"></use></svg><span class="visually-hidden">Open navigation</span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <a class="nav-link" href="#home" data-page="home"><svg class="icon"><use href="#i-home"></use></svg><span>Home</span></a>
+          <a class="nav-link" href="#modules" data-page="modules"><svg class="icon"><use href="#i-grid"></use></svg><span>Modules</span></a>
+          <a class="nav-link" href="#experiments" data-page="experiments"><svg class="icon"><use href="#i-flask"></use></svg><span>Lab Experiments</span></a>
+          <a class="nav-link" href="#projects" data-page="projects"><svg class="icon"><use href="#i-folder"></use></svg><span>Projects</span></a>
+          <a class="nav-link" href="#sources" data-page="sources"><svg class="icon"><use href="#i-book"></use></svg><span>Sources</span></a>
+          <a class="nav-link" href="#tools" data-page="tools"><svg class="icon"><use href="#i-tool"></use></svg><span>Tools</span></a>
+          <a class="nav-link student-nav-link" href="#student" data-page="student"><svg class="icon"><use href="#i-id"></use></svg><img class="student-nav-photo" src="assets/shaik-sumiya.png" alt="" aria-hidden="true"><span>Student ID</span></a>
+        </nav>
+      </header>
+
+      <main id="main-content">
+        <section class="page home-page" id="page-home" data-section="home">
+          <div class="welcome-row">
+            <div>
+              <p class="eyebrow accent">STUDENT DIGITAL PORTFOLIO</p>
+              <h1>Welcome to the <span>Digital Laboratory</span></h1>
+              <p class="muted intro">A learning space for Data Science coursework, practicals, and student work.</p>
+            </div>
+            <div class="course-chip"><span class="status-dot"></span><span>COURSE CODE</span><strong>22DS102006</strong></div>
+          </div>
+
+          <article class="student-card student-card-compact">
+            <div class="student-card-head">
+              <div class="student-avatar-wrap">
+                <img class="student-photo" src="assets/shaik-sumiya.png" alt="Shaik Sumiya">
+              </div>
+              <div class="student-mini-meta">
+                <h2 data-resume-value="personal.name">Shaik Sumiya</h2>
+                <p class="student-title">DATA SCIENCE SCHOLAR</p>
+              </div>
+            </div>
+            <div class="student-summary compact-summary">
+              <div class="detail-list">
+                <div class="detail-row"><span>Roll Number:</span><strong data-resume-value="personal.rollNumber">24102A030118</strong></div>
+                <div class="detail-row"><span>Section:</span><strong data-resume-value="personal.section">2</strong></div>
+                <div class="detail-row"><span>Department:</span><strong data-resume-value="personal.department">Computer Science and Engineering — Data Science (CSE-DS)</strong></div>
+                <div class="detail-row"><span>Faculty:</span><strong>S. Bosu Babu (Assistant Professor)</strong></div>
+                <div class="detail-row"><span>Email:</span><strong><a data-resume-link="email" href="mailto:215summisumiya@gmail.com" data-resume-value="personal.email">215summisumiya@gmail.com</a></strong></div>
+                <div class="detail-row"><span>Phone:</span><strong><a data-resume-link="phone" href="tel:9963076215" data-resume-value="personal.phone">9963076215</a></strong></div>
+              </div>
+              <div class="profile-actions compact-actions">
+                <a class="button button-primary compact-button" href="#student">View Profile <svg class="icon"><use href="#i-arrow-up-right"></use></svg></a>
+                <div class="quick-icons" aria-label="Quick actions">
+                  <a class="icon-badge" href="#student" aria-label="Open student profile"><svg class="icon"><use href="#i-link"></use></svg></a>
+                  <a class="icon-badge" href="https://www.linkedin.com/in/shaik-sumiya-53bb6534a/" target="_blank" rel="noopener noreferrer" data-profile="linkedin" aria-label="Open LinkedIn profile">in</a>
+                  <a class="icon-badge icon-badge-play" href="https://www.youtube.com/@sumiyasumiya-tc5ic" target="_blank" rel="noopener noreferrer" data-profile="youtube" aria-label="Open YouTube profile">▶</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <section class="social-section" aria-labelledby="social-heading">
+            <div class="section-heading compact"><div><p class="eyebrow accent">FIND ME ONLINE</p><h2 id="social-heading">Social &amp; coding profiles</h2></div><span class="muted small">External links open in a new tab</span></div>
+            <div class="social-grid">
+              <a class="social-card" href="https://github.com/Sumiya-215" target="_blank" rel="noopener noreferrer" data-profile="github"><span class="social-icon github-mark">GH</span><span><strong>GitHub</strong><small>@Sumiya-215</small></span><svg class="icon trailing"><use href="#i-arrow-up-right"></use></svg></a>
+              <a class="social-card" href="https://www.linkedin.com/in/shaik-sumiya-53bb6534a/" target="_blank" rel="noopener noreferrer" data-profile="linkedin" aria-label="Open LinkedIn profile"><span class="social-icon linkedin-mark">in</span><span><strong>LinkedIn</strong><small>@shaik-sumiya</small></span><svg class="icon trailing"><use href="#i-arrow-up-right"></use></svg></a>
+              <a class="social-card" href="https://leetcode.com/u/Shaik_Sumiya_215/" target="_blank" rel="noopener noreferrer" data-profile="leetcode" aria-label="Open LeetCode profile"><span class="social-icon leetcode-mark">LC</span><span><strong>LeetCode</strong><small>@Shaik_Sumiya_215</small></span><svg class="icon trailing"><use href="#i-arrow-up-right"></use></svg></a>
+              <a class="social-card" href="https://www.youtube.com/@sumiyasumiya-tc5ic" target="_blank" rel="noopener noreferrer" data-profile="youtube"><span class="social-icon youtube-mark">▶</span><span><strong>YouTube</strong><small>@sumiyasumiya-tc5ic</small></span><svg class="icon trailing"><use href="#i-arrow-up-right"></use></svg></a>
+            </div>
+          </section>
+          <div class="home-bottom"><span><svg class="icon"><use href="#i-spark"></use></svg> Learn by exploring. Build by doing.</span><span>MOHAN BABU UNIVERSITY <i class="separator-dot"></i> DATA SCIENCE</span></div>
+        </section>
+
+        <section class="page" id="page-student" data-section="student" hidden>
+          <div class="page-heading"><div><p class="eyebrow accent">STUDENT DIRECTORY</p><h1>Student ID</h1><p class="muted">Verified student and faculty details provided for this laboratory website.</p></div><a class="button button-quiet back-home" href="#home"><svg class="icon"><use href="#i-arrow"></use></svg> Back to Home</a></div>
+          <article class="student-card student-card-large">
+            <div class="student-photo-wrap"><img class="student-photo" src="assets/shaik-sumiya.png" alt="Shaik Sumiya"><span class="photo-caption">DATA SCIENCE STUDENT</span></div>
+            <div class="student-summary"><div class="card-topline"><span class="eyebrow accent" data-resume-value="personal.college">MOHAN BABU UNIVERSITY</span><span class="id-badge">STUDENT ID</span></div><h2 data-resume-value="personal.name">Shaik Sumiya</h2><p class="roll-number" data-resume-value="personal.rollNumber">24102A030118</p><div class="detail-grid">
+            <div><span>Department</span><strong data-resume-value="personal.department">Computer Science and Engineering — Data Science (CSE-DS)</strong></div><div><span>Degree</span><strong data-resume-value="personal.degree">B.Tech</strong></div><div><span>Current Year</span><strong data-resume-value="personal.currentYear">3rd Year</strong></div><div><span>Section</span><strong data-resume-value="personal.section">2</strong></div>
+            </div>
+            <div class="profile-actions"><a class="button button-primary" href="#resume"><svg class="icon"><use href="#i-file"></use></svg> View Student Resume</a><button class="button button-quiet" type="button" data-print-resume><svg class="icon"><use href="#i-download"></use></svg> Save as PDF</button><button class="button button-quiet" type="button" data-print-resume><svg class="icon"><use href="#i-printer"></use></svg> Print Resume</button></div>
+            <div class="profile-socials" aria-label="Student social links">
+              <a class="social-mini" href="https://github.com/Sumiya-215" target="_blank" rel="noopener noreferrer" data-profile="github" aria-label="Open GitHub" title="GitHub"><span>GH</span></a>
+              <a class="social-mini" href="https://leetcode.com/u/Shaik_Sumiya_215/" target="_blank" rel="noopener noreferrer" data-profile="leetcode" aria-label="Open LeetCode profile" title="LeetCode"><span>LC</span></a>
+              <a class="social-mini" href="https://www.linkedin.com/in/shaik-sumiya-53bb6534a/" target="_blank" rel="noopener noreferrer" data-profile="linkedin" aria-label="Open LinkedIn profile" title="LinkedIn"><span>in</span></a>
+              <a class="social-mini" href="https://www.youtube.com/@sumiyasumiya-tc5ic" target="_blank" rel="noopener noreferrer" data-profile="youtube" aria-label="Open YouTube" title="YouTube"><span>▶</span></a>
+            </div>
+          </div>
+          </article>
+          <div class="notice-panel"><svg class="icon"><use href="#i-check"></use></svg><p><strong>Student details</strong><br>Update your resume to keep the shared student and contact details in sync.</p></div>
+        </section>
+
+        <section class="page" id="page-resume" data-section="resume" hidden>
+          <div class="page-heading"><div><p class="eyebrow accent">STUDENT PROFILE</p><h1>Student Resume</h1><p class="muted">Edit your details, save them in this browser, or print an A4-friendly copy.</p></div><div class="heading-actions"><a class="button button-quiet back-home" href="#home"><svg class="icon"><use href="#i-arrow"></use></svg> Back to Home</a><button class="button button-quiet" type="button" data-view-resume><svg class="icon"><use href="#i-file"></use></svg> View Resume</button><button class="button button-primary" type="button" data-edit-resume><svg class="icon"><use href="#i-tool"></use></svg> Edit Resume</button><button class="button button-quiet" type="button" data-print-resume><svg class="icon"><use href="#i-printer"></use></svg> Print Resume</button><button class="button button-quiet" type="button" data-print-resume><svg class="icon"><use href="#i-download"></use></svg> Save as PDF</button></div></div>
+          <section class="resume-editor" id="resume-editor" hidden aria-labelledby="resume-editor-title">
+            <div class="resume-editor-heading"><div><p class="eyebrow accent">YOUR RESUME</p><h2 id="resume-editor-title">Edit Resume</h2></div><p>Changes are stored in this browser and shared with your Home and Student ID details.</p></div>
+            <form id="resume-editor-form">
+              <div id="resume-editor-fields"></div>
+              <div class="resume-editor-actions"><p class="resume-editor-status" id="resume-editor-status" role="status" aria-live="polite"></p><div><button class="button button-primary" type="submit">Save</button><button class="button button-quiet" type="button" data-cancel-resume-edit>Cancel</button><button class="button button-quiet" type="button" data-reset-resume>Reset</button></div></div>
+            </form>
+          </section>
+          <p class="resume-storage-notice" id="resume-storage-notice" role="status" aria-live="polite" hidden></p>
+          <article class="resume-sheet" id="resume-sheet">
+            <header class="resume-header" id="resume-header"></header>
+            <section class="resume-block" id="resume-contact"></section>
+            <section class="resume-block" id="resume-objective"></section>
+            <section class="resume-block" id="resume-education"></section>
+            <section class="resume-block" id="resume-skills"></section>
+            <section class="resume-block" id="resume-projects"></section>
+            <section class="resume-block" id="resume-profiles"></section>
+            <section class="resume-block" id="resume-achievements"></section>
+          </article>
+        </section>
+
+        <section class="page" id="page-modules" data-section="modules" hidden>
+          <div class="page-heading"><div><p class="eyebrow accent">COURSE MATERIALS</p><h1>Learning modules</h1><p class="muted">Choose a module to view its available course material.</p></div><a class="button button-quiet back-home" href="#home"><svg class="icon"><use href="#i-arrow"></use></svg> Back to Home</a></div>
+          <div class="workspace-layout">
+            <aside class="side-panel"><div class="side-panel-heading"><span class="eyebrow">MODULES</span><span class="module-count">05</span></div><div class="module-list" id="module-list" role="tablist" aria-label="Course modules"></div></aside>
+            <article class="content-panel" id="module-content" aria-live="polite"></article>
+          </div>
+        </section>
+
+        <section class="page" id="page-experiments" data-section="experiments" hidden>
+          <div class="page-heading"><div><p class="eyebrow accent">PRACTICAL LEARNING</p><h1>Lab experiments</h1><p class="muted">Open an experiment to browse its sub-experiments and practice examples.</p></div><a class="button button-quiet back-home" href="#home"><svg class="icon"><use href="#i-arrow"></use></svg> Back to Home</a></div>
+          <div class="workspace-layout">
+            <aside class="side-panel experiment-side-panel"><div class="side-panel-heading"><span class="eyebrow">EXPERIMENTS</span><button class="experiment-sidebar-toggle" type="button" aria-expanded="true" aria-controls="experiment-list">Hide experiments</button><span class="module-count">10</span></div><div class="experiment-list" id="experiment-list" aria-label="Lab experiments"></div></aside>
+            <article class="content-panel" id="experiment-content" aria-live="polite"></article>
+          </div>
+        </section>
+
+        <section class="page" id="page-projects" data-section="projects" hidden>
+          <div class="page-heading"><div><p class="eyebrow accent">STUDENT WORK</p><h1>Projects</h1><p class="muted">Projects are included only when their files or verified repository details are available.</p></div><a class="button button-quiet back-home" href="#home"><svg class="icon"><use href="#i-arrow"></use></svg> Back to Home</a></div>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-art screenshot-missing"><svg class="icon"><use href="#i-folder"></use></svg><span>PROJECT SCREENSHOT NOT PROVIDED</span></div>
+              <div class="project-body"><span class="project-type">WEB APPLICATION · CURRENT WORKSPACE</span><h2>Data Science Digital Laboratory</h2><p>A responsive course hub for the MBU Data Science lab, student profile, course modules, practicals, and references.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><button class="button button-primary project-detail-button" type="button" data-project-details><svg class="icon"><use href="#i-arrow-up-right"></use></svg> View Project details</button><p class="project-footnote">No public repository or deployed demo URL was supplied.</p></div>
+            </article>
+          </div>
+          <div class="empty-callout"><svg class="icon"><use href="#i-folder"></use></svg><div><strong>Other project files not available</strong><p>Smart Water Tank Monitoring System and WeatherGPT were not present in this workspace, so they are not listed as completed projects.</p></div></div>
+        </section>
+
+        <section class="page" id="page-sources" data-section="sources" hidden>
+          <div class="page-heading"><div><p class="eyebrow accent">REFERENCES &amp; LINKS</p><h1>Sources</h1><p class="muted">Supplied course materials are separated from external reference links.</p></div><a class="button button-quiet back-home" href="#home"><svg class="icon"><use href="#i-arrow"></use></svg> Back to Home</a></div>
+          <div class="source-category"><div class="category-heading"><span class="category-icon"><svg class="icon"><use href="#i-file"></use></svg></span><div><span class="eyebrow accent">COURSE MATERIALS</span><h2>Course materials</h2></div></div><div class="empty-source"><strong>Modules 1 and 2 are available in the Modules section</strong><p>Module 1 uses the supplied PDF. Module 2 was exported from the supplied DOCX to PDF. Study material for Modules 3, 4, and 5 will be added soon.</p></div></div>
+          <div class="source-category"><div class="category-heading"><span class="category-icon"><svg class="icon"><use href="#i-link"></use></svg></span><div><span class="eyebrow accent">EXTERNAL REFERENCES</span><h2>Documentation &amp; learning links</h2></div></div>
+            <div class="source-grid">
+              <article class="source-card"><span class="source-category-label">PYTHON DOCUMENTATION</span><h3>Python Documentation</h3><p>Official Python language and standard library documentation.</p><a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer">Open source <svg class="icon"><use href="#i-arrow-up-right"></use></svg></a><small>Reference link · not used by supplied experiment code</small></article>
+              <article class="source-card"><span class="source-category-label">DATA SCIENCE DOCUMENTATION</span><h3>pandas Documentation</h3><p>Official documentation for the Python data analysis library.</p><a href="https://pandas.pydata.org/docs/" target="_blank" rel="noopener noreferrer">Open source <svg class="icon"><use href="#i-arrow-up-right"></use></svg></a><small>Reference link · experiment examples adapted from supplied course material</small></article>
+              <article class="source-card"><span class="source-category-label">STUDENT PROFILE</span><h3>GitHub · Sumiya-215</h3><p>Student-provided GitHub profile. No specific project repository was provided.</p><a href="https://github.com/Sumiya-215" target="_blank" rel="noopener noreferrer">Open source <svg class="icon"><use href="#i-arrow-up-right"></use></svg></a><small>Profile URL supplied by the student</small></article>
+              <article class="source-card"><span class="source-category-label">STUDENT VIDEO CHANNEL</span><h3>YouTube · Sumiya</h3><p>Student-provided channel. No specific tutorial video was provided.</p><a href="https://www.youtube.com/@sumiyasumiya-tc5ic" target="_blank" rel="noopener noreferrer">Open source <svg class="icon"><use href="#i-arrow-up-right"></use></svg></a><small>Channel URL supplied by the student</small></article>
+            </div>
+          </div>
+          <div class="notice-panel"><svg class="icon"><use href="#i-check"></use></svg><p><strong>Experiment 4: Data Wrangling content was supplied in DS_Program4.docx.</strong><br>Other experiment documents, datasets, and APIs were not supplied.</p></div>
+        </section>
+
+        <section class="page" id="page-tools" data-section="tools" hidden>
+          <div class="page-heading"><div><p class="eyebrow accent">PROJECT STACK</p><h1>Tools &amp; technologies</h1><p class="muted">Based on the files and runtime APIs used by this website in the current workspace.</p></div><a class="button button-quiet back-home" href="#home"><svg class="icon"><use href="#i-arrow"></use></svg> Back to Home</a></div>
+          <div class="tools-intro"><span class="tools-status"><svg class="icon"><use href="#i-check"></use></svg> VERIFIED FROM CURRENT PROJECT</span><p>This website has no external framework, build system, or server-side package dependencies. Pyodide and requested scientific packages are downloaded on demand from the official CDN in the browser.</p></div>
+          <div class="tool-category"><div class="tool-category-heading"><span class="eyebrow accent">PROGRAMMING &amp; PRESENTATION</span><h2>Web fundamentals</h2></div><div class="tool-grid">
+            <article class="tool-card"><span class="tool-badge html-badge">5</span><div><h3>HTML5</h3><p>Page structure, accessible navigation, and resume content.</p><span class="tool-location">Used in: index.html</span></div><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" aria-label="HTML documentation"><svg class="icon"><use href="#i-arrow-up-right"></use></svg></a></article>
+            <article class="tool-card"><span class="tool-badge css-badge">#</span><div><h3>CSS</h3><p>Responsive layouts, visual styling, and print-ready resume rules.</p><span class="tool-location">Used in: style.css</span></div><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer" aria-label="CSS documentation"><svg class="icon"><use href="#i-arrow-up-right"></use></svg></a></article>
+            <article class="tool-card"><span class="tool-badge js-badge">JS</span><div><h3>JavaScript</h3><p>Section navigation, interactive experiment examples, independent editor state, and PDF availability checks.</p><span class="tool-location">Used in: script.js</span></div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" aria-label="JavaScript documentation"><svg class="icon"><use href="#i-arrow-up-right"></use></svg></a></article>
+          </div></div>
+          <div class="tool-category"><div class="tool-category-heading"><span class="eyebrow accent">BROWSER APIs</span><h2>Platform features</h2></div><div class="tool-grid">
+            <article class="tool-card"><span class="tool-badge browser-badge">DOM</span><div><h3>Browser DOM &amp; History APIs</h3><p>In-page navigation, hash-based locations, and responsive menu interactions.</p><span class="tool-location">Used in: script.js</span></div><a href="https://developer.mozilla.org/en-US/docs/Web/API/History_API" target="_blank" rel="noopener noreferrer" aria-label="Browser history API documentation"><svg class="icon"><use href="#i-arrow-up-right"></use></svg></a></article>
+            <article class="tool-card"><span class="tool-badge browser-badge">Py</span><div><h3>Pyodide</h3><p>Runs Python in a Web Worker in the browser. Runtime and scientific packages load on demand from the official Pyodide CDN.</p><span class="tool-location">Used in: python-worker.js</span></div><a href="https://pyodide.org/en/stable/usage/index.html" target="_blank" rel="noopener noreferrer" aria-label="Pyodide documentation"><svg class="icon"><use href="#i-arrow-up-right"></use></svg></a></article>
+            <article class="tool-card"><span class="tool-badge browser-badge">PDF</span><div><h3>Browser print dialog</h3><p>Print the student resume or choose “Save as PDF” in the browser dialog.</p><span class="tool-location">Used in: resume print action</span></div><a href="https://support.google.com/chrome/answer/1069693" target="_blank" rel="noopener noreferrer" aria-label="Browser print help"><svg class="icon"><use href="#i-arrow-up-right"></use></svg></a></article>
+          </div></div>
+          <div class="empty-callout"><svg class="icon"><use href="#i-tool"></use></svg><div><strong>Browser Python runtime limitations</strong><p>Python runs client-side through Pyodide and is not a secure server-side sandbox. Package downloads require internet access; network requests obey browser CORS rules; SQLite and other virtual-filesystem data are temporary to the runtime session.</p></div></div>
+        </section>
+      </main>
+      <footer class="site-footer"><span>MOHAN BABU UNIVERSITY</span><span>DATA SCIENCE DIGITAL LABORATORY <i></i> 22DS102006</span><span>STUDENT PORTFOLIO</span></footer>
+    </div>
+    <dialog class="project-dialog" id="project-dialog"><div class="dialog-top"><span class="eyebrow accent">PROJECT DETAILS</span><button type="button" class="dialog-close" aria-label="Close project details">×</button></div><h2>Data Science Digital Laboratory</h2><p>This responsive student laboratory website is the project built in the current workspace. It includes course navigation, profile and resume sections, module and experiment placeholders, and verified reference links.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><p class="muted small">No external repository or deployed demo link is available.</p></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
